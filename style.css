@@ -1,0 +1,77 @@
+/* Basic CSS for styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+#content-container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+}
+#display-content {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 500px;
+    height: auto;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content-box {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    background-color: rgb(120, 81, 192);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+h2 {
+    margin-top: 10px;
+    text-align: left;
+}
+input[type="file"], textarea {
+    font-family: 'Roboto', sans-serif;
+    width: 90%;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: rgb(249, 249, 252);
+    color: rgb(0, 0, 0);
+    border:none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+input[type="file"]:hover, textarea:hover {
+    background: linear-gradient(to right, red, rgb(233, 240, 233));
+    color: white;
+}
+button {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(0, 22, 0);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background: linear-gradient(to right, red, rgb(123, 91, 240));
+}
